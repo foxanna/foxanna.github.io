@@ -99,21 +99,36 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #495057 !important;
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
   line-height: 3.5rem;
   margin-right: 1rem;
-}
-
-.social-icons a:last-child {
-  margin-right: 0;
+  margin-bottom: 1rem;
 }
 
 .social-icons a:hover {
-  background-color: #00A8A8;
+  background-color: #00A8A8 !important;
+}
+
+.bordered-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-color: #495057 !important;
+  color: #495057 !important;
+  border: 0.1rem solid;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.25rem;
+}
+
+.bordered-icons a:hover {
+  border-color: #00A8A8 !important;
+  color: #00A8A8 !important;
 }
 
 .contact-icons a {
@@ -122,6 +137,10 @@ p.lead {
   font-size: 1.25rem;
   text-align: center;
   margin-right: 1rem;
+}
+
+.contact-icons a:last-child {
+  margin-right: 0;
 }
 
 .contact-icons a:hover {

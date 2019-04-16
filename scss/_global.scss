@@ -92,18 +92,35 @@ p.lead {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: $gray-700;
+    background-color: $gray-700 !important;
     color: $white !important;
     border-radius: 100%;
     text-align: center;
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
-    &:last-child {
-      margin-right: 0;
-    }
+    margin-bottom: 1rem;
     &:hover {
-      background-color: $primary;
+      background-color: $primary !important;
+    }
+  }
+}
+
+.bordered-icons {
+  a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-color: $gray-700 !important;
+    color: $gray-700 !important;
+    border: 0.1rem solid;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.25rem;
+    &:hover {
+      border-color: $primary !important;
+      color: $primary !important;
     }
   }
 }
@@ -115,6 +132,9 @@ p.lead {
     font-size: 1.25rem;
     text-align: center;
     margin-right: 1rem;
+    &:last-child {
+      margin-right: 0;
+    }
     &:hover {
       color: $primary;
     }
