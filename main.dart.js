@@ -44730,7 +44730,7 @@ this.a.a=t.j("kb<0>").a(a.uR(t.j("dj<0>")))
 return!1}}
 Y.zQ.prototype={
 h:function(a){var t=this.a,s=this.b
-return"Error: Could not find the correct Provider<"+t.h(0)+"> above this "+s.h(0)+" Widget\n\nTo fix, please:\n\n  * Ensure the Provider<"+t.h(0)+"> is an ancestor to this "+s.h(0)+" Widget\n  * Provide types to Provider<"+t.h(0)+">\n  * Provide types to Consumer<"+t.h(0)+">\n  * Provide types to Provider.of<"+t.h(0)+">()\n  * Always use package imports. Ex: `import 'package:my_app/my_code.dart';\n  * Ensure the correct `context` is being used.\n\nIf none of these solutions work, please file a bug at:\nhttps://github.com/rrousselGit/provider/issues\n"},
+return"Error: Could not find the correct Provider<"+t.h(0)+"> above this "+s.h(0)+" Widget\n\nTo fix, please:\n\n  * Ensure the Provider<"+t.h(0)+"> is an ancestor to this "+s.h(0)+" Widget\n  * Provide types to Provider<"+t.h(0)+">\n  * Provide types to Consumer<"+t.h(0)+">\n  * Provide types to Provider.of<"+t.h(0)+">()\n  * Ensure the correct `context` is being used.\n\nIf none of these solutions work, please file a bug at:\nhttps://github.com/rrousselGit/provider/issues\n"},
 $iel:1}
 Y.ve.prototype={
 fu:function(){var t,s=this
