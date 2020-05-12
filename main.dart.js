@@ -46512,10 +46512,10 @@ t:function(a){var t=null,s=P.aa(38,248,249,252)
 return new N.fG(X.iO(C.oS,t,C.wg,t,P.aa(38,248,249,252),P.aa(15,48,141,206),C.oS,t,t,C.dd,s,t),t,C.FN,t)}}
 Q.CW.prototype={
 t:function(a){var t=null
-return B.qb(H.a([T.fq(C.bt,C.yh,C.aV,t),new T.aN(C.hP,L.bn("I am a senior mobile developer with 5+ years of experience in creating commercial cross-platform mobile applications in Xamarin and Flutter.\n\nI can help you build a high-quality mobile iOS / Android application or a website leveraging lightness and flexibility of Flutter technology.",t,t,t,t,t,K.a0(a,!1).P.r,t,t),t)],u.p),t,t,C.k,!1)}}
+return B.qb(H.a([T.fq(C.bt,C.yh,C.aV,t),new T.aN(C.hP,L.bn("I am an experienced mobile apps developer passionate about Flutter and quality software.\n\nI can help you build iOS and Android applications leveraging lightness and flexibility of Flutter technology.\n\nAvailable for hire remotely.",t,t,t,t,t,K.a0(a,!1).P.r,t,t),t)],u.p),t,t,C.k,!1)}}
 Q.CX.prototype={
 t:function(a){var t=null,s=K.a0(a,!1).P.At(C.j,C.j),r=S.bC(t,t,t,t,t,T.jR(C.d2,C.yz,C.hp,t,C.bq),t,C.B),q=s.r
-return M.aW(t,new T.aN(C.wR,T.dd(H.a([V.oG(U.a28("assets/images/my_photo.jpg",C.y,120,t),t,16,t,C.kQ),C.B0,L.bn("Hi, I'm",t,t,t,t,t,s.Q.nw(q.r),C.aM,t),new T.aN(C.hM,L.bn("Anna Domashych",t,t,t,t,t,s.d,C.aM,t),t),L.bn("Flutter / Xamarin developer",t,t,t,t,t,q,C.aM,t)],u.p),C.al,C.a0,C.aH),t),t,t,r,t,t,t,t,t,t)}}
+return M.aW(t,new T.aN(C.wR,T.dd(H.a([V.oG(U.a28("assets/images/my_photo.jpg",C.y,120,t),t,16,t,C.kQ),C.B0,L.bn("Hi, I'm",t,t,t,t,t,s.Q.nw(q.r),C.aM,t),new T.aN(C.hM,L.bn("Anna Domashych",t,t,t,t,t,s.d,C.aM,t),t),L.bn("Flutter developer",t,t,t,t,t,q,C.aM,t)],u.p),C.al,C.a0,C.aH),t),t,t,r,t,t,t,t,t,t)}}
 A.wK.prototype={
 t:function(a){var t=null,s=P.aa(31,255,128,82),r=P.aa(31,255,128,82)
 return new N.fG(X.iO(C.hG,t,C.wi,t,s,P.aa(15,255,128,82),C.hG,C.M,t,C.oY,r,t),C.F5,C.FQ,t)}}
