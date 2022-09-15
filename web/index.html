@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="/">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+    <title>Anna Leushchenko</title>
+
+    <meta name="title" content="Anna Leushchenko">
+    <meta name="description" content="Portfolio website created with Flutter">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Anna Leushchenko">
+    <meta property="og:description" content="Portfolio website created with Flutter">
+    <meta property="og:image"
+          content="https://raw.githubusercontent.com/foxanna/foxanna.github.io/master/assets/assets/images/my_photo.png">
+
+    <meta property="twitter:title" content="Anna Leushchenko">
+    <meta property="twitter:description" content="Portfolio website created with Flutter">
+    <meta property="twitter:image"
+          content="https://raw.githubusercontent.com/foxanna/foxanna.github.io/master/assets/assets/images/my_photo.png">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Anna Leushchenko">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <link rel="manifest" href="manifest.json">
+
+    <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '2312311322';
+    </script>
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+</head>
+<body bgcolor="3C75A5">
+  <div id="loading">
+    <style>
+        body {
+          inset: 0;
+          overflow: hidden;
+          margin: 0;
+          padding: 0;
+          position: fixed;
+        }
+
+        #loading {
+          align-items: center;
+          display: flex;
+          height: 100%;
+          justify-content: center;
+          width: 100%;
+        }
+
+        #loading img {
+          animation: 1s ease-in-out 0s infinite alternate breathe;
+          opacity: .66;
+          transition: opacity .4s;
+        }
+
+        #loading.main_done img {
+          opacity: 1;
+        }
+
+        #loading.init_done img {
+          animation: .33s ease-in-out 0s 1 forwards zooooom;
+          opacity: .05;
+        }
+
+        @keyframes breathe {
+          from {
+            transform: scale(1)
+          }
+
+          to {
+            transform: scale(0.95)
+          }
+        }
+
+        @keyframes zooooom {
+          from {
+            transform: scale(1)
+          }
+
+          to {
+            transform: scale(10)
+          }
+        }
+
+    </style>
+    <img src="icons/flutter.png"/>
+  </div>
+<script>
+    window.addEventListener('load', function () {
+      var loading = document.querySelector('#loading');
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function (engineInitializer) {
+        loading.classList.add('main_done');
+        return engineInitializer.initializeEngine();
+      }).then(function (appRunner) {
+        loading.classList.add('init_done');
+        return appRunner.runApp();
+      }).then(function (app) {
+        // Wait a few milliseconds so users can see the "zoooom" animation
+        // before getting rid of the "loading" div.
+        window.setTimeout(function () {
+          loading.remove();
+        }, 200);
+      });
+    });
+
+
+
+
+</script>
+</body>
+</html>
